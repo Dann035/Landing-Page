@@ -1,7 +1,6 @@
-import "./Navbar.css";
 const Navbar = () => {
   return (
-    <nav className="nav navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="nav navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid d-flex justify-content-between">
         <div className="ms-5">
           <a className="navbar-brand" href="#">
@@ -18,12 +17,12 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon black"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" href="#">
                   Home
                 </a>
               </li>

@@ -1,8 +1,8 @@
 import "./Heading.css";
 const Heading = () => {
   return (
-    <div className="mx-5 my-3">
-      <div className="alert bg-green-light p-5">
+    <div className="mx-5 my-3 row col-9 mx-auto">
+      <div className="alert bg-green-light">
         <h1>A Warm Welcome</h1>
         <p>
           Nota: las tarjetas tienen contenido diferente, piensa en DRY (Don't
